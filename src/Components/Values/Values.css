@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.title{
+  font-weight: bold;
+  font-size: 400%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.total{
+  flex:1;
+  flex-grow: 2;
+  color: blue;
+  padding-bottom: 5px;
+}
+.death{
+  color:red;
+  flex:1;
+  flex-grow: 2;
+  padding-bottom: 5px;
+}
+.recovered{
+  color:green;
+  flex:1;
+  flex-grow: 2;
+  padding-bottom: 5px;
+}
+.date{
+  color:gray;
+  padding-bottom: 5px;
+  align-self: flex-end;
+}
+
